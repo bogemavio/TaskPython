@@ -17,7 +17,7 @@ def find_simple_number():
     else:
         count = 0
         for i in range(1, number+1):
-            if i % number == 0:
+            if number % i == 0:
                 count += 1
         if count == 2:
             return print(True)
